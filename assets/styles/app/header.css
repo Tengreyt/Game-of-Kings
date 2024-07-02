@@ -1,0 +1,22 @@
+.header-row {
+    display: flex;
+    align-items: center;    
+    margin: 24px 0;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.title-logo {
+    font-size: 3rem;
+}
+
+.img-logo img{
+    width: 100px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+.characters {
+    position: relative;
+}
+
+.images-characters-elph {
+    position: absolute;
+    left: 10px;
+}
+
+.images-characters-dead {
+    position: absolute;
+    width: 600px;
+    top: -60px;
+    right: 0px;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.images-characters-elph {
+    animation: slideInLeft 1s ease-out;
+}
+
+.images-characters-dead {
+    animation: slideInRight 1s ease-out;
+}
+
+
+

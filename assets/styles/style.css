@@ -1,0 +1,22 @@
+@import url('./app/header.css');
+@import url('./section/section-characters.css');
+
+@import url('./section/home-section.css');
+@import url('./characters/characters.css');
+@import url('https://fonts.cdnfonts.com/css/finder-2');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'FINDER', sans-serif;
+    background: linear-gradient(to right,rgb(139, 137, 0), rgb(73, 73, 3));
+}
+
+.container {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+
